@@ -61,12 +61,93 @@
 }
 .drop-cont1{
   position: absolute;
-  height: 300px;
-  width: 300px;
-  background-color: brown;
-
+  height: 325px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  top: 65px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 2px rgba(150, 150, 150, 0.473);
+  display: none;
 }
 
+.pro:hover .drop-cont1{
+  display: block;
+}
+
+.in-con-pro{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ico{
+  height: 30px ;
+  width: 30px;
+  margin-inline: 8px;
+  /* background-color: #176cff; */
+}
+
+.ss{
+  font-size: 35px;
+  color: #176cff;
+}
+.apro{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 30%;
+   height: 40%;
+   margin: 1%;
+   margin-block-start: 4%;
+}
+
+.apro h6{
+  font-size: 14px;
+}
+.apro p{
+  font-size: 12px;
+}
+.show-pro{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.mar{
+  margin: 3%;
+}
+.wid{
+  width: 300px;
+  height: 200px;
+}
+.wid .apro{
+  margin: 10px;
+}
+.wid p{
+  margin: 15px;
+}
+.wid .infopro h6{
+  font-size: 12px;
+}
+.hit{
+  height: 250px;
+  width: 225px;
+
+}
+.set{
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.set p, .set h4 {
+   margin-block-start: 10px;
+   margin-left: 17px;
+   font-size: 18px;
+}
+.set p{
+  opacity: 0.5;
+  font-size: 13px;
+}
 @media screen and (min-width: 1500px) {
  #navigation{
   height: 80px;
