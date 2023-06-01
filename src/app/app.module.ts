@@ -14,6 +14,13 @@ import { Sec8Component } from './sec8/sec8.component';
 import { ScrollerComponent } from './scroller/scroller.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { AboutComponent } from './about/about.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { DefaultComponent } from './default/default.component';
+import { AbSec1Component } from './ab-sec1/ab-sec1.component';
+import { LoginComponent } from './login/login.component';
+import { DefaultLayoutComponent } from './default-layout/default-layout.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +35,14 @@ import { NavigationComponent } from './navigation/navigation.component';
     Sec8Component,
     ScrollerComponent,
     FooterComponent,
-    NavigationComponent
+    NavigationComponent,
+    AboutComponent,
+    PricingComponent,
+    DefaultComponent,
+    AbSec1Component,
+    LoginComponent,
+    DefaultLayoutComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
